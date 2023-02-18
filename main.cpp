@@ -48,7 +48,7 @@ int main() {
     Log3::error("Can't find rank {}!",Log3::rank);
 
     Log3::rank = 0;
-    Log3::banner("Logging Complete!");
+    Log3::banner("Logging Complete!\n");
 
     return 0;
 }
